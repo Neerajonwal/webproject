@@ -14,7 +14,7 @@ app.use(express.static(staticpath));
 hbs.registerPartials(partialspath);
 
 
-app.get("",(req,res)=>{
+app.get("",(req,res)=>{ 
     res.render("index.hbs")
 })
 app.get("/home",(req,res)=>{
